@@ -67,7 +67,7 @@ Once done, close the simulation by going to Simulation → "Close Simulation".
 
 ## 4:1 MUX Gate-Level Implementation
 
- module multiplexer(s1,s0,a,b,c,d,y);
+module multiplexer(s1,s0,a,b,c,d,y);
 input s1,s0,a,b,c,d;
 output y;
 wire[3:0]w;
